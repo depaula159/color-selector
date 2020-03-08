@@ -1,0 +1,69 @@
+// Imports
+
+@import "reset";
+
+// Mixins
+
+// Variaveis
+
+$cor-padrao: #fe346e;
+$cor-contraste: #fff;
+$cor-janela: #fff;
+
+// Codificações sass
+
+nav{
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: $cor-padrao;
+	height: 60px;
+
+	h1{
+
+		font-family: "Roboto";
+		color: $cor-contraste;
+	}
+
+	.menuCor{
+
+		font-family: "Roboto";
+		color: $cor-contraste;
+		font-weight: 700;
+		display: flex;
+		justify-content: center;
+
+		&:hover{
+
+			cursor: pointer;
+		}
+
+		.paleta{
+
+			background-color: $cor-janela;
+			display: none;
+			flex-wrap: wrap;
+			align-items:center;
+			padding: 10px;
+			position: absolute;
+			top: 50px;
+			border: 1px solid #ddd;
+
+			button{
+
+				margin: 1px;
+				border: none;
+				width: 15px;
+				height: 15px;
+
+				&:hover{
+
+					cursor: pointer;
+					-webkit-transform: scale(1.2);
+					-webkit-transition: all .2s ease-in-out;
+				}
+			}
+		}
+	}
+}

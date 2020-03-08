@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fe346e;
+  height: 60px; }
+  nav h1 {
+    font-family: "Roboto";
+    color: #fff; }
+  nav .menuCor {
+    font-family: "Roboto";
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    justify-content: center; }
+    nav .menuCor:hover {
+      cursor: pointer; }
+    nav .menuCor .paleta {
+      background-color: #fff;
+      display: none;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 10px;
+      position: absolute;
+      top: 50px;
+      border: 1px solid #ddd; }
+      nav .menuCor .paleta button {
+        margin: 1px;
+        border: none;
+        width: 15px;
+        height: 15px; }
+        nav .menuCor .paleta button:hover {
+          cursor: pointer;
+          -webkit-transform: scale(1.2);
+          -webkit-transition: all .2s ease-in-out; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=width-device, initial-scale=1.0">
+
+	<title>Setup menu COLOR</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btnAbrir").click(function(){
+				$(".paleta").slideToggle();
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<nav id="menuNav">
+		<h1>Color Page</h1>
+		<div class="menuCor">
+			<p id="btnAbrir">Mudar cor do menu</p>
+			<div class="paleta">
+				<button style="background-color: #fe346e;" id="btn0"></button>
+				<button style="background-color: red;" id="btn1"></button>
+				<button style="background-color: green;" id="btn2"></button>
+				<button style="background-color: blue;" id="btn3"></button>
+				<button style="background-color: orange;" id="btn4"></button>
+				<button style="background-color: gray;" id="btn5"></button>
+				<button style="background-color: brown;" id="btn6"></button>
+				<button style="background-color: black;" id="btn7"></button>
+				<button style="background-color: yellow;" id="btn8"></button>
+				<button style="background-color: gold;" id="btn9"></button>
+				<button style="background-color: cyan;" id="btn10"></button>
+				<button style="background-color: magenta;" id="btn11"></button>
+				<button style="background-color: slateblue;" id="btn12"></button>
+			</div>
+		</div>
+	</nav>
+
+	<script type="text/javascript">
+		
+		var pinkC = document.getElementById("btn0");
+		var redC = document.getElementById("btn1");
+		var greenC = document.getElementById("btn2");
+		var blueC = document.getElementById("btn3");
+		var orangeC = document.getElementById("btn4");
+		var grayC = document.getElementById("btn5");
+		var brownC = document.getElementById("btn6");
+		var blackC = document.getElementById("btn7");
+		var yellowC = document.getElementById("btn8");
+		var goldC = document.getElementById("btn9");
+		var cyanC = document.getElementById("btn10");
+		var magentaC = document.getElementById("btn11");
+		var slateblueC = document.getElementById("btn12");
+
+		var navMenu = document.getElementById("menuNav");
+
+		pinkC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "#fe346e";
+		});
+
+		redC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "red";
+		});
+
+		greenC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "green";
+		});
+
+		blueC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "blue";
+		});
+
+		orangeC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "orange";
+		});
+
+		grayC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "gray";
+		});
+
+		brownC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "brown";
+		});
+
+		blackC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "black";
+		});
+
+		yellowC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "yellow";
+		});
+
+		goldC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "gold";
+		});
+
+		cyanC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "cyan";
+		});
+
+		magentaC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "magenta";
+		});
+
+		slateblueC.onclick = (function(){
+
+			navMenu.style.backgroundColor = "slateblue";
+		});
+
+	</script>
+
+</body>
+
+</html>
